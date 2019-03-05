@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item android:icon="@drawable/ic_title_black_24dp"
+        android:title="Titles"
+        android:id="@+id/menuTitle"/>
+
+    <item
+        android:title="Tags"
+        android:icon="@drawable/ic_tag_faces_black_24dp"
+        android:id="@+id/menuTags"/>
+
+    <item
+        android:id="@+id/menuCapture"
+        android:icon="@drawable/ic_camera_alt_black_24dp"
+        android:title="Capture"/>
+
+    </group>
+
+</menu>
